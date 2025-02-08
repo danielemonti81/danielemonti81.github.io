@@ -8,7 +8,7 @@ const app = express();
 const PORT = 5000;
 
 // Connessione a MongoDB
-mongoose.connect('mongodb://localhost:27017/worldmap_messages', {
+mongoose.connect('mongodb+srv://daniele19xx:Stocazzo1981@cluster0.zx1ij.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/worldmap_messages', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
